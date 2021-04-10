@@ -1,0 +1,64 @@
+{
+    "componentName": "Employee",
+    "layout": "Horizontal",
+    "componentList": [
+        {
+            "type": "TextContainer",
+            "config": {
+                "label": "Customer Info",
+                "className": "textcontainerTrv"
+            }
+        },
+        {
+            "type": "TextInput",
+            "config": {
+                "textInputName": "custName",
+                "textInputLabel": "Customer First Name: ",
+                "mandatory": true,
+                "className": "textCompTrv"
+            }
+        },
+        {
+            "type": "TextInput",
+            "config": {
+                "textInputName": "custLastName",
+                "textInputLabel": "Customer Last Name: ",
+                "className": "textCompTrv"
+            }
+        },
+        {
+            "type": "RadioButton",
+            "config": {
+                "radioButtonName": "Gender",
+                "radioButtonLabel": "Male,Female,Other",
+                "value": "Male"
+            }
+        },
+        {
+            "type": "DropDown",
+            "config": {
+                "dropDownName": "maritalStatus",
+                "dropDownLabel": "Marital Status",
+                "mandatory": true,
+                "dropDownList": "Married,Unmarried",
+                "value": "Married"
+            }
+        },
+        {
+            "type": "CheckBox",
+            "config": {
+                "checkBoxName": "Languages",
+                "checkBoxLabel": "English,Hindi,Spanish,Chinese,Other",
+                "mandatory": true,
+                "value": "English"
+            }
+        },
+        {
+            "type": "RadioButton",
+            "config": {
+                "radioButtonName": "Do you own any policy with us?",
+                "radioButtonLabel": "Yes,No"
+            }
+        }
+    ]
+}
